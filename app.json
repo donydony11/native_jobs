@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "react_native_jobs",
+    "slug": "react_native_jobs",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "517d816d-de4a-4326-841a-2ca59848294b"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/517d816d-de4a-4326-841a-2ca59848294b"
+    },
+    "android": {
+      "package": "com.donydony1.react_native_jobs"
+    },
+    "ios": {}
+  }
+}

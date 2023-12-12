@@ -1,0 +1,27 @@
+{
+    "build": {
+      "development": {
+        "developmentClient": true,
+        "distribution": "internal"
+      },
+      "preview": {
+        "distribution": "internal",
+        "channel": "preview"
+      },
+      "production": {
+        "channel": "production"
+      }
+    },
+    "cli": {
+      "version": ">= 0.34.0"
+    },
+    "submit": {
+      "production": {
+        "android": {
+          "serviceAccountKeyPath": "./crafty-eye-399414-bf7e7678e3e8.json",
+          "track": "internal"
+        }
+      }
+    }
+  }
+  
